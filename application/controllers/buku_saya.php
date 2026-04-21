@@ -17,6 +17,7 @@ class Buku_saya extends CI_Controller {
 
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
+        $this->load->view('templates/topbar');
         $this->load->view('buku_saya/index', $data);
         $this->load->view('templates/footer');
     }
@@ -31,6 +32,7 @@ class Buku_saya extends CI_Controller {
 
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
+        $this->load->view('templates/topbar');
         $this->load->view('buku_saya/edit', $data);
         $this->load->view('templates/footer');
     }
